@@ -1,50 +1,136 @@
-header h1 {
-    color:green;
-    background-color: rgb(210, 221, 59);
+body{
+    background-color:#eee;
+}
+
+div.a{
+    background-color: white;
     text-align: center;
-    
+    border: .2px solid #ccc;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    padding-bottom: 4%;  
 }
 
-p.texto {
-    color:black;
-    text-align: center;
-    
-
+div>input{
+    border-radius: 4%;
+    font-size: 70%;
+    padding: 2%;
+    border-color: #ddd;
+    border-width: 5px;
+    width: 70%;
 }
 
-div h1 {
-    color:rgb(26, 143, 104);
-    text-align: center;
+div>input.user{
+    margin-top: 2%;
 }
 
-div ul {
-    color:black;
-}
-
-#fondo {
-    color: burlywood;
-    background-color: chartreuse;   
-}
-
-table {
-    
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: solid 1px #080808;
-    padding: 5px;
-}
-
-th {
-    background-color: chartreuse;
+button.btn{
+    width: 75%;
     color: white;
-    text-align: left;
+    font-size: 90%;
+    padding: 1%;
+    border-radius: 10%;
+    border-color: white;
+    background-color: #99ccfb;
 }
 
-tr:hover {
-    background-color: blanchedalmond;
-    cursor: pointer;
+div.div.x{
+    display: inline;
+    color: red;
+}
 
+span{
+    color: #888;
+    font-size: 85%;
+    font-style: bold;
+    padding: 3%;
+    font-weight: bolder;
+}
+
+img.w{
+    width: 4%;
+    height: 4%;
+}
+
+span.x{
+    color: #559;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+span.y{
+    color: #559;
+    font-size: 80%;
+    padding-bottom: 20%;
+}
+
+div.b{
+    background-color: white;
+    text-align: center;
+    border: .2px solid #ccc;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    padding: 3%;
+    font-size: 95%;
+}
+
+div.b>span{
+    color: #333;
+    font-weight: normal;
+}
+
+div.b.b{
+    color: #0099ff;
+}
+
+div.c{
+    text-align: center;
+    font-size: 83%;
+    color: #333;
+}
+
+img.d{
+    width: 25%;
+    margin-top: 2%;
+}
+
+nav{
+    padding-top: 12%;
+    text-align: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: #888;
+    font-size: 70%;
+    padding-right: 3%;
+}
+
+footer{
+    text-align: center;
+    font-size: 90%;
+    color: #888;
+    padding-top: 5%;
+}
+
+footer>span.e{
+    padding-left: 2%;
+    font-weight: normal;
+}
+
+select{
+    background-color: #eee;
+    appearance: none;
+    border-style: none;
+    font-weight: normal;
+    outline: 0;
+    color: #888;
+    font-size: 80%;
+}
+
+hr{
+    display: inline-block;
+    color: red;
 }
